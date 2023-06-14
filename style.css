@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: url('https://previews.123rf.com/images/wavebreakmediamicro/wavebreakmediamicro1608/wavebreakmediamicro160802851/61747421-maths-against-blue-vignette-background.jpg');
+    font-family: cursive;
+}
+.form{
+      background: #fff;
+      padding:20px;
+      box-shadow: 0 4px 8px;
+      border-radius: 10px;
+      margin: 10px;
+}
+.input{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border:solid 3px slateblue;
+    border-radius: 8px;
+}
+.input ::placeholder{
+    color:lightgray;
+    font-family: cursive;
+}
+.btn{
+    background-color: rgb(227, 15, 15);
+    border: none;
+    color: #fff;
+    display: block;
+    padding:10px;
+    font-family: cursive;
+    margin:20px 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.4);
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 400px;
+}
+
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+.score{
+    color: rgb(227, 15, 15);
+    text-align: right;
+}
